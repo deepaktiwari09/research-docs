@@ -183,3 +183,7 @@ Feature: Data Integrity Checks
 - Apply `@type:` tags to express what aspect is being tested (e.g. `@type:constraint`, `@type:security`).
 - Combine tags smartly to enable automated filtering (e.g., regression, smoke tests).
 - Apply `@status:` to prioritize scenarios in CI/CD test matrix.
+
+This template provides a structured approach to documenting db behaviors using BDD methodology with comprehensive tagging for test organization and execution.
+
+check BDD document having feature files containing @db specifications, create feature folder IF NOT PRESENT with that feature name and create DB  BDD specification for each component, 1 file per DB using this template

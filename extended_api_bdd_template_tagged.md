@@ -173,3 +173,7 @@ Feature: External Service Integration
 - Tag scenarios with `@type:` for aspect-focused grouping (e.g. `happy-path`, `error-case`, `performance`).
 - Use `@status:` to prioritize scenario execution.
 - Combine tags to facilitate targeted test runs (e.g., smoke tests: `@type:happy-path @status:critical`).
+
+This template provides a structured approach to documenting API behaviors using BDD methodology with comprehensive tagging for test organization and execution.
+
+check BDD document having feature files containing @api specifications, create feature folder IF NOT PRESENT with that feature name and create api  BDD specification for each component, 1 file per Dapi using this template
